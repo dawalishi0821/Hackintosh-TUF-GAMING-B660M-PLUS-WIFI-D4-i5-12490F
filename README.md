@@ -8,9 +8,9 @@
 ==
 配件 | 描述 | 是否工作
 ----|----|----
-cpu | inteli5-12490f |✅
+cpu | Intel Core i5-12490f |✅
 主板 | 华硕TUF GAMING B660M-PLUS WIFI D4 |✅
-显卡 | 蓝宝石rx5600xt |✅
+显卡 | 蓝宝石超白金RX5600XT |✅
 内存 | 英睿达普条3200 8GB*2 |✅
 硬盘 | 西数sn770 1TB｜希捷酷鹰4TB  |✅
 声卡 | 板载ALC897 |✅
