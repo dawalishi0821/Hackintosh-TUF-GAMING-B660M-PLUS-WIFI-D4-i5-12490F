@@ -6,21 +6,27 @@ TUF GAMING B660M-PLUS WIFI D4+12490f
 配置：
 ==
 cpu inteli5-12490f
+
 主板 华硕TUF GAMING B660M-PLUS WIFI D4
+
 显卡 蓝宝石rx5600xt
+
 内存 英睿达普条3200 8GB*2
-硬盘 西数sn770 1TB
-    希捷酷鹰4TB
+
+硬盘 西数sn770 1TB｜希捷酷鹰4TB
+    
 声卡 板载ALC897
-网卡 板载Realtek8125Ethernet的2.5Gb网卡
-    板载AX201 支持Wi-Fi6和蓝牙5.0
+
+网卡 板载Realtek8125Ethernet的2.5Gb网卡｜板载AX201 支持Wi-Fi6和蓝牙5.0
 
 状态：
 =
 Macos11+均正常工作，暂不推荐使用Ventura，macos10.15疑似有小问题
 
 
-1.Cpu在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见官方教程
+1.Cpu
+---
+Cpu在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见官方教程
 
 https://dortania.github.io/OpenCore-Install-Guide/
 
@@ -30,6 +36,8 @@ Cpu睿频已经定制geekbench5跑分正常，如果cpu型号不同请重新定�
 
 https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
 
+2.主板
+---
 主板工作正常，usb端口均已经定制，睡眠正常，支持usb唤醒
 
 本efi使用更接近原生usb的usbport.kext如果usb端口工作不正常请重新定制
@@ -41,7 +49,9 @@ https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89e
 https://github.com/corpnewt/SSDTTime
 
 
-2.显卡工作正常（macOS下可能遇到显卡风扇无负载不转，
+3.显卡
+---
+显卡工作正常（macOS下可能遇到显卡风扇无负载不转，
 
 注入dp信息可以解决，
 
@@ -50,32 +60,31 @@ https://github.com/corpnewt/SSDTTime
 https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
 
 
-3.内存工作正常，超频工作正常
+4.内存
+---
+内存工作正常，超频工作正常
 
 
-4.硬盘完美tirm，工作正常，避免macos不支持的硬盘
+5.硬盘
+---
+硬盘完美tirm，工作正常，避免macos不支持的硬盘
 
 https://hpglw.com/cdc6109c.html
 
 
-5.声卡工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可），无爆音
-
-
-6.板载有线工作正常在10.15驱动（10.13-10.14老系统请使用1.0.0版驱动
-
-
-7.板载无线ax201包内放了11-13的airportitlwm自编译驱动（精简并开启了Wi-Fi6），
-
-intel网卡目前在ventura工作任有bug，建议先使用itlwm+heliport驱动，
-
-隔空投屏工作正常，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
+6.声卡
+---
+声卡工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可），无
+工作正常，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
 
 https://github.com/OpenIntelWireless/itlwm/releases
 
 https://github.com/OpenIntelWireless/HeliPort
 
 
-8.无线网卡蓝牙工作正常，已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
+7.无线网卡蓝牙
+---
+无线网卡蓝牙工作正常，已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
 
 
 bios设置
