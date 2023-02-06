@@ -8,7 +8,7 @@
 ==
 配件 | 描述 | 是否工作 | 注意
 ----|----|----|---
-cpu | Intel Core i5-12490f |✅|/
+CPU | Intel Core i5-12490F |✅|/
 主板 | 华硕TUF GAMING B660M-PLUS WIFI D4 |✅|/
 显卡 | 蓝宝石超白金RX5600XT |✅|/
 内存 | 英睿达普条3200 8GB*2 |✅|/
@@ -23,11 +23,11 @@ cpu | Intel Core i5-12490f |✅|/
 Macos11+均正常工作，暂不推荐使用Ventura，macos10.15疑似有小问题
 
 
-1.Cpu
+1.CPU
 ---
-Cpu在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见[官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
+CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见[官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
 
-Cpu睿频已经定制geekbench5跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
+CPU睿频已经定制[geekbench5](https://www.geekbench.com)跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 2.主板
 ---
