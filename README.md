@@ -1,4 +1,4 @@
-# TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
+# Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
 分享一个近乎完美的自制efi
 
