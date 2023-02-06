@@ -136,3 +136,5 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 七 的 RX5600XT
 
 之一 的 RX570
+
+lch 的 GT730
