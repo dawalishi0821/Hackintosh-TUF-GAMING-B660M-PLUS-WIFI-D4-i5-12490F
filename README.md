@@ -1,23 +1,20 @@
 # TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
-TUF GAMING B660M-PLUS WIFI D4+12490f
+
 分享一个近乎完美的自制efi
+
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
 配置：
 ==
-cpu inteli5-12490f
-
-主板 华硕TUF GAMING B660M-PLUS WIFI D4
-
-显卡 蓝宝石rx5600xt
-
-内存 英睿达普条3200 8GB*2
-
-硬盘 西数sn770 1TB｜希捷酷鹰4TB
-    
-声卡 板载ALC897
-
-网卡 板载Realtek8125Ethernet的2.5Gb网卡｜板载AX201 支持Wi-Fi6和蓝牙5.0
+配件 | 描述 | 是否工作
+----|----|----
+cpu | inteli5-12490f |✅
+主板 | 华硕TUF GAMING B660M-PLUS WIFI D4 |✅
+显卡 | 蓝宝石rx5600xt |✅
+内存 | 英睿达普条3200 8GB*2 |✅
+硬盘 | 西数sn770 1TB｜希捷酷鹰4TB  |✅
+声卡 | 板载ALC897 |✅
+网卡 | 板载Realtek8125Ethernet的2.5Gb网卡｜板载AX201 支持Wi-Fi6和蓝牙5.0 |✅❗
 
 状态：
 =
@@ -26,15 +23,9 @@ Macos11+均正常工作，暂不推荐使用Ventura，macos10.15疑似有小问�
 
 1.Cpu
 ---
-Cpu在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见官方教程
+Cpu在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见[官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
 
-https://dortania.github.io/OpenCore-Install-Guide/
-
-Cpu睿频已经定制geekbench5跑分正常，如果cpu型号不同请重新定制，教程
-
-【黑苹果下CPU睿频，让黑苹果更加完美黑苹果CPU变频睿频日志，一招解决CPU频率不正确，无法变频-CPU黑苹果睿频解决卡顿现象黑果CPU变频日志睿频教程】
-
-https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
+Cpu睿频已经定制geekbench5跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 2.主板
 ---
@@ -42,22 +33,16 @@ https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89e
 
 本efi使用更接近原生usb的usbport.kext如果usb端口工作不正常请重新定制
 
-【【黑苹果】全新的定制USB教程】 https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
+[定制USB教程](https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
-如果睡眠等不正常尝试用ssdttime重新提取
-
-https://github.com/corpnewt/SSDTTime
+如果睡眠等不正常尝试用[ssdttime](https://github.com/corpnewt/SSDTTime)重新提取
 
 
 3.显卡
 ---
 显卡工作正常（macOS下可能遇到显卡风扇无负载不转，
 
-注入dp信息可以解决，
-
-教程【高温夏天 显卡风扇不转怎么办？双系统（windows+macOS）下给显卡降降温】 
-
-https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
+[注入dp信息可以解决](https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 
 4.内存
@@ -67,9 +52,7 @@ https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89e
 
 5.硬盘
 ---
-硬盘完美tirm，工作正常，避免macos不支持的硬盘
-
-https://hpglw.com/cdc6109c.html
+硬盘完美tirm，工作正常，避免[macos不支持的硬盘](https://hpglw.com/cdc6109c.html)
 
 
 6.声卡
@@ -90,9 +73,10 @@ https://github.com/OpenIntelWireless/HeliPort
 bios设置
 =
 最基本：关掉csm，satamode改成ahci即可
+
 深入：https://apple.sqlsec.com/3-准备工作/3-1/
-这个主板没有cfglock选项，解锁cfg参考乌龙蜜桃来一打教程
-【【黑苹果】无法解锁的CFG LOCK | 新技能get !】 https://www.bilibili.com/video/BV1LV4y1N7jF/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef
+
+这个主板没有cfglock选项，解锁cfg参考[乌龙蜜桃来一打教程](https://www.bilibili.com/video/BV1LV4y1N7jF/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 安装方法
 =
