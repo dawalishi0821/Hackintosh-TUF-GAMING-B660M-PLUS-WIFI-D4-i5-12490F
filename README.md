@@ -27,7 +27,7 @@ Macos11+均正常工作，暂不推荐使用Ventura，macos10.15疑似有小问�
 ---
 CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见[官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
 
-CPU睿频已经定制[geekbench5](https://www.geekbench.com)跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
+[CPU睿频](https://github.com/acidanthera/CPUFriend)已经定制[geekbench5](https://www.geekbench.com)跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 2.主板
 ---
@@ -37,35 +37,31 @@ CPU睿频已经定制[geekbench5](https://www.geekbench.com)跑分正常，如�
 
 如果睡眠等不正常尝试用[ssdttime](https://github.com/corpnewt/SSDTTime)重新提取
 
-
 3.显卡
 ---
 显卡工作正常（macOS下可能遇到显卡风扇无负载不转，
 
 [注入dp信息可以解决](https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
-
 4.内存
 ---
 内存工作正常，超频工作正常
-
 
 5.硬盘
 ---
 硬盘完美tirm，工作正常，避免[macos不支持的硬盘](https://hpglw.com/cdc6109c.html)
 
-
 6.声卡
 ---
-声卡工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可）
+[声卡](https://github.com/acidanthera/AppleALC)工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可）
 
 7.以太网
 ---
-工作正常，网速正常
+[以太网](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/)工作正常，网速正常
 
 8.无线网卡Wi-Fi
 ----
-工作正常，支持802.11ax，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
+无线网卡Wi-Fi工作正常，支持802.11ax，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
 
 [Airportitlwm驱动和itlwm驱动仓库](https://github.com/OpenIntelWireless/itlwm/releases)
 
@@ -73,7 +69,7 @@ itlwm建议搭配[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 9.无线网卡蓝牙
 ---
-无线网卡蓝牙工作正常，支持蓝牙5.0，连无线耳机和音响没有问题，
+[无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.0，连无线耳机和音响没有问题，
 
 已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
 
@@ -99,9 +95,9 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 =
 1.可以联系作者
 
-2.Qq上也有很多黑苹果的群可以进行交流
+2.可以加入黑苹果交流的QQ群，向群友提问
 
-3.B站上也有很多热心up
+3.可以联系B站上热心up
 
 4.提issues
 
@@ -115,9 +111,13 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 
 [Bat.bat](https://github.com/williambj1) 开发的 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 和 [HeliPort](https://github.com/OpenIntelWireless/HeliPort)
 
+[Mieze](https://www.insanelymac.com/forum/profile/983225-mieze/) 开发的 [LucyRTL8125Ethernet](https://www.insanelymac.com/forum/files/file/1004-lucyrtl8125ethernet/)
+
 [corpnewt](https://github.com/corpnewt) 开发的 [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
 [USBToolBox](https://github.com/USBToolBox) 开发的 [USBToolBox](https://github.com/USBToolBox)
+
+[benbaker76等人](https://github.com/benbaker76) 开发的 [Hackintool](https://github.com/benbaker76/Hackintool)
 
 [ic005k](https://github.com/ic005k) 开发的 [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools)
 
@@ -134,6 +134,8 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 [胡杨](https://space.bilibili.com/597075281?spm_id_from=333.337.0.0) 的 细心教导
 
 [白给大老师](https://space.bilibili.com/1314835603?spm_id_from=333.337.0.0) 的 细心教导
+
+[win1010525](https://github.com/win1010525) 的 细心教导
 
 [黄少](https://space.bilibili.com/621086526?spm_id_from=333.337.0.0) 的 细心教导
 
