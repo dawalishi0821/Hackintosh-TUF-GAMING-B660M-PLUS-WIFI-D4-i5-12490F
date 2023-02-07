@@ -1,4 +1,5 @@
 # Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
+[中文版README](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f/blob/main/README-zh-Hans.md)
 
 Share a nearly perfect homemade EFI，the project is used to boot Hackintosh and Windows
 
