@@ -33,9 +33,7 @@ CPU睿频已经定制[geekbench5](https://www.geekbench.com)跑分正常，如�
 ---
 主板工作正常，usb端口均已经定制，睡眠正常，支持usb唤醒
 
-本efi使用更接近原生usb的usbport.kext如果usb端口工作不正常请重新定制
-
-[定制USB教程](https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
+使用更接近原生usb的usbport.kext如果usb端口工作不正常请重新定制，[定制USB教程](https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 如果睡眠等不正常尝试用[ssdttime](https://github.com/corpnewt/SSDTTime)重新提取
 
@@ -59,17 +57,25 @@ CPU睿频已经定制[geekbench5](https://www.geekbench.com)跑分正常，如�
 
 6.声卡
 ---
-声卡工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可），无
-工作正常，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
+声卡工作正常，驱动已经精简，仿冒layout-id 66成功（疑似所有id均可）
 
-https://github.com/OpenIntelWireless/itlwm/releases
-
-https://github.com/OpenIntelWireless/HeliPort
-
-
-7.无线网卡蓝牙
+7.以太网
 ---
-无线网卡蓝牙工作正常，已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
+工作正常，网速正常
+
+8.无线网卡Wi-Fi
+----
+工作正常，支持802.11ax，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
+
+[Airportitlwm驱动和itlwm驱动仓库](https://github.com/OpenIntelWireless/itlwm/releases)
+
+itlwm建议搭配[Heliport](https://github.com/OpenIntelWireless/HeliPort)
+
+9.无线网卡蓝牙
+---
+无线网卡蓝牙工作正常，支持蓝牙5.0，连无线耳机和音响没有问题，
+
+已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
 
 
 bios设置
