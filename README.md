@@ -1,6 +1,6 @@
 # Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
-分享一个近乎完美的自制efi
+分享一个近乎完美的自制EFI，项目用于引导Hackintosh以及Windows
 
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
