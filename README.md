@@ -33,13 +33,13 @@ CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（
 ---
 主板工作正常，usb端口均已经定制，睡眠正常，支持usb唤醒
 
-使用更接近原生usb的usbport.kext如果usb端口工作不正常请重新定制，[定制USB教程](https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
+使用更接近原生usb的usbport.kext，如果usb端口工作不正常请重新定制，[定制USB教程](https://www.bilibili.com/video/BV1m3411b7JP/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 如果睡眠等不正常尝试用[ssdttime](https://github.com/corpnewt/SSDTTime)重新提取
 
 3.显卡
 ---
-显卡工作正常（macOS下可能遇到显卡风扇无负载不转，
+显卡工作正常（macOS下可能遇到显卡无负载风扇不转，
 
 [注入dp信息可以解决](https://www.bilibili.com/video/BV1WT411A72F/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
@@ -71,10 +71,10 @@ itlwm建议搭配[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 ---
 [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.0，连无线耳机和音响没有问题，
 
-已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
+已添加精简驱动，蓝牙开关已添加最大最小内核数，开关驱动可以自动更换加载
 
 
-bios设置
+BIOS设置
 =
 最基本：关掉csm，satamode改成ahci即可
 
