@@ -23,7 +23,7 @@ WNIC | Intel Wi-Fi 6 AX201 With BT 5.0 |✅|❗
 
 ## Working Condition
 
-BigSur Monterey works normally.Ventura is not recommended for the time being.Catalina  seems to have some small problem
+BigSur and Monterey works normally.Ventura is not recommended for the time being.Catalina  seems to have some small problem
 
 
 ### 1.CPU
