@@ -20,7 +20,7 @@ CPU | Intel Core i5-12490F |✅|/
 
 ## 状态
 
-Macos11+均正常工作，暂不推荐使用Ventura，macos10.15疑似有小问题
+BigSur和Monterey均正常工作，暂不推荐使用Ventura，Catalina疑似有小问题
 
 
 ### 1.CPU
