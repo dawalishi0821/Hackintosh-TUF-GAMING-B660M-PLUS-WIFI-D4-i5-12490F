@@ -21,6 +21,8 @@ Sound Card | RealtekALC897 |✅|/
 Ethernet | Realtek8125Ethernet 2.5Gb |✅|/
 WNIC | Intel Wi-Fi 6 AX201 With BT 5.0 |✅|❗
 
+Replacing the graphics card with RX6800XT in the sixth edition of EFI，and counterfeit as W6800X.
+
 ## ❗ lease note that in the sixth version of the EFI network card, it has been changed to Killer 1690i ❗
 
 ## Working Condition
