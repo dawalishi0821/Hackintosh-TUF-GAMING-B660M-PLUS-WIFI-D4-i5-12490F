@@ -20,11 +20,13 @@ HDD | Seagate SkyHawk 4TB  |✅|/
 Sound Card | RealtekALC897 |✅|/
 Ethernet | Realtek8125Ethernet 2.5Gb |✅|/
 WNIC | Intel Wi-Fi 6 AX201 With BT 5.0 |✅|❗
-
+❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗
+❗ lease note that in the sixth version of the EFI network card, it has been changed to Killer 1690i ❗
+❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗❗
 ## Working Condition
 
 BigSur and Monterey works normally.Ventura is not recommended for the time being.Catalina  seems to have some small problem
-
+(The sixth version already fully supports Ventura)
 
 ### 1.CPU
 
