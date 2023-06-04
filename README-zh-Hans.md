@@ -18,6 +18,7 @@ CPU | Intel Core i5-12490F |✅|/
 网卡1 | 板载Realtek8125Ethernet的2.5Gb网卡 |✅|/
 网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.0 |✅|❗
 
+将第六版EFI中的图形卡更换为RX6800XT，并假冒为W6800X。
 ## ❗请注意第六版EFI的网卡更改为Killer 1690i❗
 
 ## 状态
