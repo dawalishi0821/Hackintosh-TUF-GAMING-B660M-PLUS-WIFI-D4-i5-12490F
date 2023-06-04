@@ -18,9 +18,11 @@ CPU | Intel Core i5-12490F |✅|/
 网卡1 | 板载Realtek8125Ethernet的2.5Gb网卡 |✅|/
 网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.0 |✅|❗
 
+## ❗请注意第六版EFI的网卡更改为Killer 1690i❗
+
 ## 状态
 
-BigSur和Monterey均正常工作，暂不推荐使用Ventura，Catalina疑似有小问题
+BigSur和Monterey均正常工作，暂不推荐使用Ventura，Catalina疑似有小问题（第六版EFI已完全支持Ventura，并移除了其他版本系统的驱动）
 
 
 ### 1.CPU
