@@ -3,7 +3,7 @@
 
 I am a Chinese student, and my English is not very good, so I may have many grammatical errors when writing English readme. I hope you can forgive my English level
 
-Share a nearly perfect homemade EFI，the project is used to boot Hackintosh and Windows
+Share a nearly perfect homemade EFI，the project is used to boot Hackintosh
 
 Author's QQ account：3083512851(Green hand in the group/Call me Comrade Vladimir）
 
