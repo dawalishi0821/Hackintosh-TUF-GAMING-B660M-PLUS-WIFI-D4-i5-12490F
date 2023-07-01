@@ -68,7 +68,7 @@ The hard disk perfectly supports Tirm and works normally,Avoid [hard disks not s
 
 ### 8.Wi-Fi
 
-Wi-Fi works normally,support 802.11ax(beat),Handoff works normally，in BigSur can work in both directions,Monterey+ in only one directions,Neither AirDrop nor Sidecar works,AirDrop can only discover devices.
+Wi-Fi works normally,support 802.11ax(beat),Handoff works normally，in BigSur can work in both directions,Monterey in only one directions,Neither AirDrop nor Sidecar works,AirDrop can only discover devices.Above Ventura, airdrop screens are no longer supported.
 
 [Airportitlwm driver and itlwm driver warehouse](https://github.com/OpenIntelWireless/itlwm/releases)
 
@@ -76,7 +76,7 @@ Itlwm is recommended with [Heliport](https://github.com/OpenIntelWireless/HeliPo
 
 ### 9.Bluetooth
 
-[Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)works normally,support BT5.0,There is no problem connecting the wireless headset and audio,
+[Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)works normally,support BT5.3,There is no problem connecting the wireless headset and audio,
 
 Thin drive added,Bluetooth switch has added maximum and minimum kernel number,Switch drive can automatically change loading.
 
