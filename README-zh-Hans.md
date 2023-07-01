@@ -64,7 +64,7 @@ CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（
 
 ### 8.无线网卡Wi-Fi
 
-无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作
+无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作.在ventura以上不在支持隔空投屏.
 
 [Airportitlwm驱动和itlwm驱动仓库](https://github.com/OpenIntelWireless/itlwm/releases)
 
@@ -72,7 +72,7 @@ itlwm建议搭配[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 ### 9.无线网卡蓝牙
 
-[无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.0，连无线耳机和音响没有问题，
+[无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.3，连无线耳机和音响没有问题，
 
 已添加精简驱动，蓝牙开关已添加最大最小内核，开关驱动可以自动更换加载
 
