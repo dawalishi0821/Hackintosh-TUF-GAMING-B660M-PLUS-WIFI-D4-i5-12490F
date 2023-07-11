@@ -64,7 +64,7 @@ CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（
 
 ### 8.无线网卡Wi-Fi
 
-无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作.在ventura以上不在支持隔空投屏.
+无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作.
 
 [Airportitlwm驱动和itlwm驱动仓库](https://github.com/OpenIntelWireless/itlwm/releases)
 
