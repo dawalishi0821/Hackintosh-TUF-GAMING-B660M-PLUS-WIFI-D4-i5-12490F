@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>22G5027e</string>
+	<string>22F82</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -37,9 +37,9 @@
 	<key>DTSDKName</key>
 	<string>macosx13.3</string>
 	<key>DTXcode</key>
-	<string>1430</string>
+	<string>1431</string>
 	<key>DTXcodeBuild</key>
-	<string>14E222b</string>
+	<string>14E300c</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>itlwm</key>
@@ -63,9 +63,30 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
-					<string>yubankro1314@</string>
+					<string>zxyssdt112233</string>
 					<key>ssid</key>
-					<string>HUAWEI-10EY6W</string>
+					<string>ssdt</string>
+				</dict>
+				<key>WiFi_2</key>
+				<dict>
+					<key>password</key>
+					<string>zxyssdt112233</string>
+					<key>ssid</key>
+					<string>ssdt_5G</string>
+				</dict>
+				<key>WiFi_3</key>
+				<dict>
+					<key>password</key>
+					<string></string>
+					<key>ssid</key>
+					<string>Redmi</string>
+				</dict>
+				<key>WiFi_4</key>
+				<dict>
+					<key>password</key>
+					<string>9utc5c5f</string>
+					<key>ssid</key>
+					<string>CMCC-KtG6</string>
 				</dict>
 			</dict>
 		</dict>
