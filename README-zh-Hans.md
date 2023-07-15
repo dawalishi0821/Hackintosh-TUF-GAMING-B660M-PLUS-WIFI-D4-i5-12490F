@@ -79,15 +79,22 @@ itlwm建议搭配[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 ## bios设置
 
-最基本：关掉csm，satamode改成ahci即可
+最基本：
 
-深入：https://apple.sqlsec.com/3-准备工作/3-1/
+1.关掉csm
+
+2.satamode改成ahci即可
+
+深入：
+
+https://apple.sqlsec.com/3-准备工作/3-1/
 
 这个主板没有cfglock选项，解锁cfg参考[乌龙蜜桃来一打教程](https://www.bilibili.com/video/BV1LV4y1N7jF/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
 ## 安装方法
 
 https://apple.sqlsec.com
+
 以及更多b站教程
 
 ## 更多后续优化
