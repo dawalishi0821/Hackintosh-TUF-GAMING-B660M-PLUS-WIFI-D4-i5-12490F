@@ -83,9 +83,13 @@ Thin drive added,Bluetooth switch has added maximum and minimum kernel number,Sw
 
 ## BIOS setup
 
-Basic operation：Turn off csm and change satamode to ahci
+Basic operation：
 
-In-depth operation：https://apple.sqlsec.com/3-准备工作/3-1/
+1.Turn off csm
+
+2.change satamode to ahci
+
+Other operation：https://apple.sqlsec.com/3-准备工作/3-1/
 
 This motherboard has no cfglock option. Unlock cfg reference[Tutorials for 乌龙蜜桃来一打](https://www.bilibili.com/video/BV1LV4y1N7jF/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
