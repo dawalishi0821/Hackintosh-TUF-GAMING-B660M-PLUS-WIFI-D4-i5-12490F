@@ -110,7 +110,7 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 ## 鸣谢
 [CloverHackyColor](https://github.com/CloverHackyColor)开发的[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 
-[Acidanthera](https://github.com/acidanthera) 开发的 [其他驱动](https://github.com/orgs/acidanthera/repositories) 以及 [官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
+[Acidanthera](https://github.com/acidanthera) 开发的 [常用驱动](https://github.com/orgs/acidanthera/repositories)
 
 [Apple](https://www.apple.com) 开发的 [macOS](https://www.apple.com/macos/)
 
