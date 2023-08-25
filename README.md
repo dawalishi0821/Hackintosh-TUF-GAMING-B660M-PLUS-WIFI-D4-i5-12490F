@@ -8,7 +8,6 @@ Share a nearly perfect homemade EFI，the project is used to boot Hackintosh
 
 Author's QQ account：3083512851(Green hand in the group/Call me Comrade Vladimir）
 
-![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 
 ## configuration
 
@@ -16,17 +15,15 @@ accessories |  description | Work or not | be careful
 ----|----|----|---
 CPU | Intel Core i5-12490F |✅|/
 Motherboard | ASUS TUF GAMING B660M-PLUS WIFI D4 |✅|/
-GPU | Sapphire RX5600XT |✅|/
-RAM |  Crucial 3200MHz 8GB*2 |✅|/
+GPU | YingTong RX6800XT |✅|/
+RAM | KINGBANK 3200MHz 16GB*2 |✅|/
 SSD | WD sn770 1TB |✅|/
 HDD | Seagate SkyHawk 4TB  |✅|/
 Sound Card | RealtekALC897 |✅|/
 Ethernet | Realtek8125Ethernet 2.5Gb |✅|/
-WNIC | Intel Wi-Fi 6 AX201 With BT 5.0 |✅|❗
+WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
 
-Replacing the graphics card with RX6800XT in the sixth edition of EFI，and counterfeit as W6800X.
-
-## ❗ lease note that in the sixth version of the EFI network card, it has been changed to Killer 1690i ❗
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 
 ## Working Condition
 
