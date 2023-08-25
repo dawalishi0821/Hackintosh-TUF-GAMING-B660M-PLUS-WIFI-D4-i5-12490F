@@ -1,6 +1,6 @@
  Build your hackintosh with opencore, Hackintosh EFI information for TUF-GAMING-B660M-PLUS-WIFI-D4 and i5-12490F
  ===
- [Clover version click here](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
+ [If you want to use CLOVER, please click here](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
 
 
 [中文版README](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f/blob/main/README-zh-Hans.md)
