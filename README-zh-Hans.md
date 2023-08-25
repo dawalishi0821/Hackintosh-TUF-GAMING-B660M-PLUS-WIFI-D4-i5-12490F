@@ -24,7 +24,7 @@ CPU | Intel Core i5-12490F |✅|/
 
 ## 状态
 
-BigSur和Monterey均正常工作，暂不推荐使用Ventura，Catalina疑似有小问题（第六版EFI已完全支持Ventura，并移除了其他版本系统的驱动）
+BigSur和Monterey Ventura Sonoma均正常工作，Catalina疑似有小问题（第六版EFI已完全支持Ventura，并移除了其他版本系统的驱动）
 
 
 ### 1.CPU
