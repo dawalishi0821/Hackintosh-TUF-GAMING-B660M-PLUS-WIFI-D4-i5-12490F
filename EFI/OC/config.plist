@@ -40,19 +40,27 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>Faking Radeon RX 6800XT as Radeon Pro W6800X</string>
+                    <string>Disable Intel iGPU</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-W6800X.aml</string>
+                    <string>SSDT-iGPU-Disable.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
                     <string>Disable NVIDIA P104-100 located in the Slot-2</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
-                    <string>SSDT-GPU-Disable.aml</string>
+                    <string>SSDT-2ndGPU-Disable.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Faking Radeon RX 6800XT as Radeon Pro W6800X</string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-W6800X.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -129,6 +137,11 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>CFG_LINK_FIXED_MAP</key>
+                    <integer>1</integer>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
                     <key>layout-id</key>
@@ -148,7 +161,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.7</string>
+                    <string>V1.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -202,7 +215,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.6</string>
+                    <string>V1.6.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -254,7 +267,7 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>AppleALC.kext</string>
+                    <string>AppleALC_897.kext</string>
                     <key>Comment</key>
                     <string>V1.8.4</string>
                     <key>Enabled</key>
@@ -344,13 +357,13 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>itlwm.kext</string>
+                    <string>SmallTreeIntel8259x.kext</string>
                     <key>Comment</key>
-                    <string>V2.3.0</string>
+                    <string>V3.1.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
-                    <string>Contents/MacOS/itlwm</string>
+                    <string>Contents/MacOS/SmallTreeIntel8259x</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -470,7 +483,7 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothFirmware_1690i.kext</string>
+                    <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
@@ -502,13 +515,82 @@
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>RestrictEvents.kext</string>
+                    <key>Comment</key>
+                    <string>V1.1.3</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/RestrictEvents</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>HoRNDIS9.2.kext</string>
+                    <key>Comment</key>
+                    <string>V9.2</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/HoRNDIS</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
             </array>
             <key>Block</key>
-            <array/>
+            <array>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IONetworkingFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>22.0.0</string>
+                    <key>Strategy</key>
+                    <string>Exclude</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Identifier</key>
+                    <string>com.apple.iokit.IOPCIFamily</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>22.0.0</string>
+                    <key>Strategy</key>
+                    <string>Exclude</string>
+                </dict>
+            </array>
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
-                <data>VQYKAAAAAAAAAAAAAAAAAA==</data>
+                <data>6gYJAAAAAAAAAAAAAAAAAA==</data>
                 <key>Cpuid1Mask</key>
                 <data>/////wAAAAAAAAAAAAAAAA==</data>
                 <key>DummyPowerManagement</key>
@@ -631,7 +713,7 @@
                 <key>InstanceIdentifier</key>
                 <string></string>
                 <key>LauncherOption</key>
-                <string>Full</string>
+                <string>Disabled</string>
                 <key>LauncherPath</key>
                 <string>Default</string>
                 <key>PickerAttributes</key>
@@ -641,7 +723,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>GoldenGate</string>
+                <string>GoldenGate+</string>
                 <key>PollAppleHotKeys</key>
                 <true/>
                 <key>ShowPicker</key>
@@ -697,7 +779,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>j137</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -763,7 +845,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>agdpmod=pikera</string>
+                    <string>debug=0x100 keepsyms=1 agdpmod=pikera revpatch=sbvmm</string>
                     <key>csr-active-config</key>
                     <data>/w8AAA==</data>
                     <key>prev-lang:kbd</key>
@@ -832,7 +914,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02950501J9JG36A8</string>
+                <string>CK12501VW63CG</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -844,11 +926,11 @@
                 <key>SystemMemoryStatus</key>
                 <string>Auto</string>
                 <key>SystemProductName</key>
-                <string>iMacPro1,1</string>
+                <string>Xserve3,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02ZTMY7HX87</string>
+                <string>CK126QYL6HS</string>
                 <key>SystemUUID</key>
-                <string>8743D27F-14B1-49FF-B6B0-FE5E2B6032DE</string>
+                <string>BC9501C7-8AEA-42B9-9D6E-BF226EF4EC7B</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -946,7 +1028,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>AudioDxe.efi</string>
+                    <string>OpenRuntime.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -958,7 +1040,7 @@
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
-                    <string>OpenRuntime.efi</string>
+                    <string>AudioDxe.efi</string>
                 </dict>
                 <dict>
                     <key>Arguments</key>
@@ -1002,11 +1084,35 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
                     <string>CrScreenshotDxe.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>Ext4Dxe.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>OpenLinuxBoot.efi</string>
                 </dict>
             </array>
             <key>Input</key>
@@ -1131,7 +1237,7 @@
                 <key>ReloadOptionRoms</key>
                 <false/>
                 <key>RequestBootVarRouting</key>
-                <true/>
+                <false/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
