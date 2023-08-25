@@ -30,7 +30,7 @@ Replacing the graphics card with RX6800XT in the sixth edition of EFI，and coun
 
 ## Working Condition
 
-BigSur and Monterey works normally.Ventura is not recommended for the time being.Catalina  seems to have some small problem
+BigSur and Monterey Ventura Sonoma works normally.Catalina  seems to have some small problem
 (The sixth version already fully supports Ventura，And removed drivers from other versions of the system)
 
 ### 1.CPU
