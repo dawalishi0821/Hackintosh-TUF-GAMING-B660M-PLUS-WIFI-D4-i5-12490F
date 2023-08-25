@@ -78,7 +78,7 @@ Detailed content
 
 *   9.Bluetooth
 
-     *   [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)works normally,support BT5.3,There is no problem connecting the wireless headset and audio,
+     *   [Bluetooth](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)works normally,support BT5.2,There is no problem connecting the wireless headset and audio,
 
      *  Thin drive added,Bluetooth switch has added maximum and minimum kernel number,Switch drive can automatically change loading.
 
