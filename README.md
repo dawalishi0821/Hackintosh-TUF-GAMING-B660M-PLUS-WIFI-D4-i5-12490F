@@ -35,7 +35,7 @@ BigSur and Monterey Ventura Sonoma works normally.Catalina  seems to have some s
 
 ### 1.CPU
 
-The CPU works normally on Catalina+ and has been counterfeited for 10 generations.If High Sierra is installed,please counterfeit for 8 generations(Not tested for normal operation,See [Official Tutorial](https://dortania.github.io/OpenCore-Install-Guide/) for parameters of counterfeiting
+The CPU works normally on High Sierra+ and has been counterfeited for 8 generations.
 
 [CPU Turbo Boost](https://github.com/acidanthera/CPUFriend)has been customized and [Geekbench5](https://www.geekbench.com)runs normally，If the CPU model is different,[please customize it again](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
@@ -143,7 +143,7 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 
 [老八带你玩黑果](https://space.bilibili.com/504306154?spm_id_from=333.337.search-card.all.click) 的 [CPU Turbo Boost Customization Tutorial](https://www.bilibili.com/video/BV143411F7aJ/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) and Careful teaching,accompany
 
-[小明和他的女朋友](https://space.bilibili.com/591453294?spm_id_from=333.337.0.0)'s [Graphics card PP_ PhmSoftPowerPlayTable Injection Modify Graphics Card bios Settings Tutorial](https://www.bilibili.com/video/BV1WT411A72F/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) and [EFI](https://github.com/Xmingbai/ASUS-TUF-GAMING-B660M-PLUS-Wi-Fi-D4-Hackintosh)(I have done it again later)
+[小明和他的女朋友](https://space.bilibili.com/591453294?spm_id_from=333.337.0.0)'s [Graphics card PP_ PhmSoftPowerPlayTable Injection Modify Graphics Card bios Settings Tutorial](https://www.bilibili.com/video/BV1WT411A72F/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867)
 
 [大头蔡](https://space.bilibili.com/16323318)'s [Usb customization tutorial](https://www.bilibili.com/video/BV1m3411b7JP/?spm_id_from=333.337.search-card.all.click&vd_source=1b694a12fb9af6d07f612a9c284e1867)
 
