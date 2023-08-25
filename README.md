@@ -31,7 +31,7 @@ WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
 
      *  BigSur and Monterey Ventura Sonoma works normally.Catalina  seems to have some small problem
 #
-
+Detailed content
 *  1.CPU
 
      *  The CPU works normally on High Sierra+ and has been counterfeited for 8 generations.
@@ -83,6 +83,7 @@ WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
      *  Thin drive added,Bluetooth switch has added maximum and minimum kernel number,Switch drive can automatically change loading.
 
 #
+Start Hackintosh
 *  BIOSsetup Basic operation：
 
      *  1.Turn off csm
