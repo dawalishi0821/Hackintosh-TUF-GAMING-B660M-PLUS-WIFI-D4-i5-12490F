@@ -6,7 +6,7 @@
 ---
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
-*  配置
+配置
 
 配件 | 描述 | 是否工作 | 注意
 ----|----|----|---
@@ -22,6 +22,7 @@ CPU | Intel Core i5-12490F |✅|/
 
 ![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 #
+详细内容
 *  1.CPU
 
      *  CPU工作正常，已经仿冒8代。
@@ -60,7 +61,7 @@ CPU | Intel Core i5-12490F |✅|/
 
 *   8.无线网卡Wi-Fi
 
-     *  无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作.
+     *  无线网卡Wi-Fi工作正常，支持802.11ax(beat)，接力投屏正常，macos11可以双向，macos12以上单向，隔空投送随航均不能工作.
 
      *  [Airportitlwm驱动和itlwm驱动仓库](https://github.com/OpenIntelWireless/itlwm/releases)
 
@@ -68,9 +69,10 @@ CPU | Intel Core i5-12490F |✅|/
 
 *  9.无线网卡蓝牙
 
-     *  [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.3，连无线耳机和音响没有问题，
+     *  [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.2，连无线耳机和音响没有问题.
 
 #
+开始Hackintosh
 *  bios设置最基本：
      *  1.关掉csm
 
