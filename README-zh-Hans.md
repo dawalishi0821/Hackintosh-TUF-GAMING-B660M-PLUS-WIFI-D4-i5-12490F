@@ -4,6 +4,7 @@ Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 ## 配置
 
 配件 | 描述 | 是否工作 | 注意
