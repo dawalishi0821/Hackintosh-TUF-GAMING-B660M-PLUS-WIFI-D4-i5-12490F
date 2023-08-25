@@ -126,8 +126,6 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 
 [benbaker76等人](https://github.com/benbaker76) 开发的 [Hackintool](https://github.com/benbaker76/Hackintool)
 
-[国光酱](https://space.bilibili.com/112842166?spm_id_from=333.337.0.0) 的 [黑苹果教程](https://apple.sqlsec.com)
-
 [老八带你玩黑果](https://space.bilibili.com/504306154?spm_id_from=333.337.search-card.all.click) 的 [cpu睿频定制教程](https://www.bilibili.com/video/BV143411F7aJ/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) 和 细心教导陪伴
 
 [大头蔡](https://space.bilibili.com/16323318) 的 [usb定制教程](https://www.bilibili.com/video/BV1m3411b7JP/?spm_id_from=333.337.search-card.all.click&vd_source=1b694a12fb9af6d07f612a9c284e1867)
