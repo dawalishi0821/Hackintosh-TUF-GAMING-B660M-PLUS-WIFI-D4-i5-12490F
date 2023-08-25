@@ -8,6 +8,8 @@ Share a nearly perfect homemade EFI，the project is used to boot Hackintosh
 
 Author's QQ account：3083512851(Green hand in the group/Call me Comrade Vladimir）
 
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
+
 ## configuration
 
 accessories |  description | Work or not | be careful
