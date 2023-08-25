@@ -4,7 +4,6 @@ Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
-![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 ## 配置
 
 配件 | 描述 | 是否工作 | 注意
@@ -19,6 +18,7 @@ CPU | Intel Core i5-12490F |✅|/
 网卡1 | 板载Realtek8125Ethernet的2.5Gb网卡 |✅|/
 网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.2 |✅|❗
 
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 
 ## 状态
 
