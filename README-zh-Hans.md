@@ -27,7 +27,7 @@ BigSur和Monterey Ventura Sonoma均正常工作，Catalina疑似有小问题（�
 
 ### 1.CPU
 
-CPU在10.15+工作正常，已经仿冒10代，如果安装10.13请仿冒8代（未测试是否正常工作，仿冒参数见[官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
+CPU工作正常，已经仿冒8代。
 
 [CPU睿频](https://github.com/acidanthera/CPUFriend)已经定制[geekbench5](https://www.geekbench.com)跑分正常，如果cpu型号不同请重新定制，[定制cpu睿频教程](https://www.bilibili.com/video/BV143411F7aJ/?share_source=copy_web&vd_source=89eb3ac3d3a5704fbe370f14fbc338ef)
 
@@ -135,8 +135,6 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 [乌龙蜜桃来一打](https://space.bilibili.com/244390800?spm_id_from=333.337.0.0)  的  [cfg解锁教程](https://www.bilibili.com/video/BV1LV4y1N7jF/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) 和 细心教导
 
 [老八带你玩黑果](https://space.bilibili.com/504306154?spm_id_from=333.337.search-card.all.click) 的 [cpu睿频定制教程](https://www.bilibili.com/video/BV143411F7aJ/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) 和 细心教导陪伴
-
-[小明和他的女朋友](https://space.bilibili.com/591453294?spm_id_from=333.337.0.0) 的 [显卡PP_PhmSoftPowerPlayTable注入修改显卡bios设置教程](https://www.bilibili.com/video/BV1WT411A72F/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) 和 [EFI](https://github.com/Xmingbai/ASUS-TUF-GAMING-B660M-PLUS-Wi-Fi-D4-Hackintosh)（后面我自己重做了）
 
 [大头蔡](https://space.bilibili.com/16323318) 的 [usb定制教程](https://www.bilibili.com/video/BV1m3411b7JP/?spm_id_from=333.337.search-card.all.click&vd_source=1b694a12fb9af6d07f612a9c284e1867)
 
