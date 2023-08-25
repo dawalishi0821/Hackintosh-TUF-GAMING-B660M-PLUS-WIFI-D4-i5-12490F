@@ -106,6 +106,7 @@ CPU | Intel Core i5-12490F |✅|/
 
 #
 鸣谢
+
 [CloverHackyColor](https://github.com/CloverHackyColor)开发的[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 
 [Acidanthera](https://github.com/acidanthera) 开发的 [常用驱动](https://github.com/orgs/acidanthera/repositories)
