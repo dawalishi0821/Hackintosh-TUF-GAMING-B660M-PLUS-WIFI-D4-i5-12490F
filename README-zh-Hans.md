@@ -11,16 +11,14 @@ Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 ----|----|----|---
 CPU | Intel Core i5-12490F |✅|/
 主板 | 华硕TUF GAMING B660M-PLUS WIFI D4 |✅|/
-显卡 | 蓝宝石超白金RX5600XT |✅|/
-内存 | 英睿达普条3200 8GB*2 |✅|/
+显卡 | 盈通花嫁RX6800XT |✅|/
+内存 | 金百达普条3200 16GB*2 |✅|/
 硬盘1 | 西数sn770 1TB |✅|/
 硬盘2 | 希捷酷鹰4TB  |✅|/
 声卡 | 板载RealtekALC897 |✅|/
 网卡1 | 板载Realtek8125Ethernet的2.5Gb网卡 |✅|/
-网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.0 |✅|❗
+网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.2 |✅|❗
 
-将第六版EFI中的图形卡更换为RX6800XT，并假冒为W6800X。
-## ❗请注意第六版EFI的网卡更改为Killer 1690i❗
 
 ## 状态
 
