@@ -143,8 +143,6 @@ https://apple.sqlsec.com/6-实用姿势/6-1/
 
 [老八带你玩黑果](https://space.bilibili.com/504306154?spm_id_from=333.337.search-card.all.click) 的 [CPU Turbo Boost Customization Tutorial](https://www.bilibili.com/video/BV143411F7aJ/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867) and Careful teaching,accompany
 
-[小明和他的女朋友](https://space.bilibili.com/591453294?spm_id_from=333.337.0.0)'s [Graphics card PP_ PhmSoftPowerPlayTable Injection Modify Graphics Card bios Settings Tutorial](https://www.bilibili.com/video/BV1WT411A72F/?spm_id_from=333.999.0.0&vd_source=1b694a12fb9af6d07f612a9c284e1867)
-
 [大头蔡](https://space.bilibili.com/16323318)'s [Usb customization tutorial](https://www.bilibili.com/video/BV1m3411b7JP/?spm_id_from=333.337.search-card.all.click&vd_source=1b694a12fb9af6d07f612a9c284e1867)
 
 [胡杨](https://space.bilibili.com/597075281?spm_id_from=333.337.0.0)'s Careful teaching
