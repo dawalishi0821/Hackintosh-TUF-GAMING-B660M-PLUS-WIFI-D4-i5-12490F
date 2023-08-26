@@ -8,7 +8,8 @@
 ---
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
-配置
+#
+## 配置
 
 配件 | 描述 | 是否工作 | 注意
 ----|----|----|---
@@ -23,7 +24,7 @@ CPU | Intel Core i5-12490F |✅|/
 网卡2 | AX201 支持Wi-Fi6和蓝牙5.2 |✅|❗
 
 #
-详细内容
+## 详细内容
 *  1.CPU
 
      *  CPU工作正常，已经仿冒8代。
@@ -73,7 +74,7 @@ CPU | Intel Core i5-12490F |✅|/
      *  [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.2，连无线耳机和音响没有问题.
 
 #
-开始Hackintosh
+## 开始Hackintosh
 *  bios设置最基本：
      *  1.关掉csm
 
@@ -106,7 +107,7 @@ CPU | Intel Core i5-12490F |✅|/
      *  4.提issues
 
 #
-鸣谢
+## 鸣谢
 
 [CloverHackyColor](https://github.com/CloverHackyColor)开发的[CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader)
 
