@@ -18,7 +18,7 @@ I hope you can forgive my English level
 *  Author's QQ account：3083512851(Green hand in the group/Call me Comrade Vladimir）
 
 #
-Configuration
+## Configuration
 
 Accessories |  Description | Work or not | Be careful
 ----|----|----|---
@@ -37,7 +37,7 @@ WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
 
      *  BigSur and Monterey Ventura Sonoma works normally.Catalina  seems to have some small problem
 #
-Detailed content
+## Detailed content
 *  1.CPU
 
      *  The CPU works normally on High Sierra+ and has been counterfeited for 8 generations.
@@ -89,7 +89,7 @@ Detailed content
      *  Thin drive added,Bluetooth switch has added maximum and minimum kernel number,Switch drive can automatically change loading.
 
 #
-Start Hackintosh
+## Start Hackintosh
 *  BIOSsetup Basic operation：
 
      *  1.Turn off csm
@@ -121,7 +121,7 @@ And more tutorials at https://www.bilibili.com
 
      *  4.Submit issues
 #
-Thanks for
+## Thanks for
 
 [Acidanthera](https://github.com/acidanthera) Developed [OpenCore](https://github.com/acidanthera/OpenCorePkg) and [Other drives](https://github.com/orgs/acidanthera/repositories) and [Official Tutorial](https://dortania.github.io/OpenCore-Install-Guide/)
 
