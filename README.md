@@ -3,6 +3,7 @@
  Build your hackintosh with opencore, 
  
  Hackintosh EFI information for TUF-GAMING-B660M-PLUS-WIFI-D4 and i5-12490F
+ ![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
  #
  [If you want to use CLOVER, please click here](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
 
@@ -31,7 +32,6 @@ Sound Card | RealtekALC897 |✅|/
 Ethernet | Realtek8125Ethernet 2.5Gb |✅|/
 WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
 
-![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 #
 *  Working Condition
 
