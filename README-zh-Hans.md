@@ -1,4 +1,4 @@
-# Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
+### Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
  [如果您想使用CLOVER，请点击这里](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
  
@@ -7,8 +7,8 @@
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
 
 ![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
-
-## 配置
+#
+### 配置
 
 配件 | 描述 | 是否工作 | 注意
 ----|----|----|---
@@ -27,7 +27,7 @@ CPU | Intel Core i5-12490F |✅|/
      *  BigSur和Monterey Ventura Sonoma均正常工作，Catalina疑似有小问题（第六版EFI已完全支持Ventura，并移除了其他版本系统的驱动）
 
 #
-## 详细内容
+### 详细内容
 *  1.CPU
 
      *  CPU工作正常，已经仿冒8代。
@@ -77,7 +77,7 @@ CPU | Intel Core i5-12490F |✅|/
      *  [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.2，连无线耳机和音响没有问题，
 
 #
-## 开始Hackintosh
+### 开始Hackintosh
 *  bios设置最基本：
      *  1.关掉csm
 
@@ -110,7 +110,7 @@ CPU | Intel Core i5-12490F |✅|/
      *  4.提issues
 
 #
-## 鸣谢
+### 鸣谢
 
 [Acidanthera](https://github.com/acidanthera) 开发的 [OpenCore](https://github.com/acidanthera/OpenCorePkg) 和 [其他驱动](https://github.com/orgs/acidanthera/repositories) 以及 [官方教程](https://dortania.github.io/OpenCore-Install-Guide/)
 
