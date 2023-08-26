@@ -1,12 +1,12 @@
 # Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
 
-![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
-
  [如果您想使用CLOVER，请点击这里](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
  
 分享一个近乎完美的自制EFI，项目用于引导Hackintosh
 
 作者qq：3083512851（群菜鸡/叫我，弗拉基米尔同志）
+
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 
 ## 配置
 
