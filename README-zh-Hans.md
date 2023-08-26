@@ -1,5 +1,7 @@
-Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
-#
+# Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
+
+![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
+
  [如果您想使用CLOVER，请点击这里](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
  
 分享一个近乎完美的自制EFI，项目用于引导Hackintosh
@@ -19,8 +21,6 @@ CPU | Intel Core i5-12490F |✅|/
 声卡 | 板载RealtekALC897 |✅|/
 网卡1 | 板载Realtek8125Ethernet的2.5Gb网卡 |✅|/
 网卡2 | 板载AX201 支持Wi-Fi6和蓝牙5.2 |✅|❗
-
-![img](https://raw.githubusercontent.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/main/关于本机.png)
 
 *  状态
 
