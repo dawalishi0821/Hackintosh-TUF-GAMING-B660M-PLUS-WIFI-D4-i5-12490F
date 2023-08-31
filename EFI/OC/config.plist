@@ -126,7 +126,7 @@
                 <key>ResizeAppleGpuBars</key>
                 <integer>0</integer>
                 <key>SetupVirtualMap</key>
-                <false/>
+                <true/>
                 <key>SignalAppleOS</key>
                 <false/>
                 <key>SyncRuntimePermissions</key>
