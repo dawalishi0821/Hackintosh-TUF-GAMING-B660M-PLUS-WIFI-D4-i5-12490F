@@ -84,6 +84,9 @@ AX201/210/7260/9560在macOS 14.4.1已测试不完全支持AirDrop，在双Intel�
 终端执行命令以调整AirDrop发送策略（低于14.4.1）
 ​```
 defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+​```
+
+​```
 sudo killall sharingd
 ​```
 已知问题：
