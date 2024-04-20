@@ -79,6 +79,26 @@ WNIC | Intel Wi-Fi 6 AX201 With BT 5.2 |✅|❗
 
      *  Wi-Fi works normally,support 802.11ax(beat),Handoff and Screen projection works normally，in BigSur can work in both directions,Monterey in only one directions,Neither AirDrop nor Sidecar works,AirDrop can only discover devices.
 
+### 20240330 supplement the above
+AX201/210/7260/9560 tested in macOS 14.4.1 does not fully support AirDrop, can be implemented on dual Intel LAN cards/iPads (10.15-14.x)
+
+* Implemented method on macBook/iMac
+Terminal executes command to adjust AirDrop sending policy (prior to 14.4.1)
+​```
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+​```
+
+​```
+sudo killall sharingd
+​```
+Known Issues:
+<li>Files larger than 200MB have a chance of crashing</li>
+<li>Air-to-iPhone probability fails</li>
+
+Remark:
+* This phenomenon is due to the open AirDrop (non-awdl) of macOS 14.4.1, and it is used and cherished
+* The above command is only required to be executed in 10.15-14, not in 14.4.1!
+
      *  [Airportitlwm driver and itlwm driver warehouse](https://github.com/OpenIntelWireless/itlwm/releases)
 
      *   Itlwm is recommended with [Heliport](https://github.com/OpenIntelWireless/HeliPort)
