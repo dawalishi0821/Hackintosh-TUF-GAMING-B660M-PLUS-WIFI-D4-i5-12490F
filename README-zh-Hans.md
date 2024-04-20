@@ -89,6 +89,7 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 ​```
 sudo killall sharingd
 ​```
+
 已知问题：
 <li>大于200MB的文件概率死机</li>
 <li>隔空到iPhone概率失败</li>
