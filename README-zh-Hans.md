@@ -76,6 +76,24 @@ CPU | Intel Core i5-12490F |✅|/
 
      *  [无线网卡蓝牙](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)工作正常，支持蓝牙5.2，连无线耳机和音响没有问题，
 
+
+### 20240330补充上述内容
+AX201/210/7260/9560在macOS 14.4.1已测试不完全支持AirDrop，在双Intel网卡/iPad上可实现（10.15-14.x）
+
+*在macBook/iMac实现方法
+终端执行命令以调整AirDrop发送策略（低于14.4.1）
+​```
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+sudo killall sharingd
+​```
+已知问题：
+<li>大于200MB的文件概率死机</li>
+<li>隔空到iPhone概率失败</li>
+
+备注：
+* 此现象得益于macOS14.4.1开放的AirDrop（non-awdl），且用且珍惜
+* 上述命令只在10.15-14需要执行，14.4.1无需执行！
+
 #
 ### 开始Hackintosh
 *  bios设置最基本：
