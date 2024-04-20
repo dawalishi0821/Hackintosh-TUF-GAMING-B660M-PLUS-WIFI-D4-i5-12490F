@@ -91,6 +91,7 @@ defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 ​```
 sudo killall sharingd
 ​```
+
 Known Issues:
 <li>Files larger than 200MB have a chance of crashing</li>
 <li>Air-to-iPhone probability fails</li>
