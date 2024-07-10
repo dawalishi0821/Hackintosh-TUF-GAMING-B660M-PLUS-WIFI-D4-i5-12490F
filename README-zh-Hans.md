@@ -1,5 +1,5 @@
 ### Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-12490f
-
+#### 项目所有者dawalishi0821的github账户的2FA验证器丢失，无法登录账户，此项目自20240710可能暂缓或停止更新。<br>
  [如果您想使用CLOVER，请点击这里](https://github.com/dawalishi0821/Hackintosh-TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F/tree/CLOVER)
  
 分享一个近乎完美的自制EFI，项目用于引导Hackintosh
