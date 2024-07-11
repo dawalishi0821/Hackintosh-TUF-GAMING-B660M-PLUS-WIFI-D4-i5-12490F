@@ -1,6 +1,6 @@
 ### TUF-GAMING-B660M-PLUS-WIFI-D4-i5-12490F
 
- #### The 2FA authenticator of the github account of the project owner dawalishi0821 is missing, and the account cannot be logged in, and the project may be suspended or stopped updating since 20240710. ...
+### The 2FA authenticator of the github account of the project owner dawalishi0821 is missing, and the account cannot be logged in, and the project may be suspended or stopped updating since 20240710.I,laobamac don't have the same hardware so that I cannot make updates for this EFI-Bootloader in time.I'll provide a newer version if necessary, but it's better to switch to other similar projects as soon as possible to get full and stable Hackintosh support.
  <br>
  Build your hackintosh with opencore, 
  
